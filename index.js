@@ -4,7 +4,12 @@ function takeANumber(katzDeliLine,newPersonInLine){
 }
 
 function nowServing(katzDeliLine){
-
+  if katzDeliLine.length>0 {
+    return `Currently serving ${katzDeliLine}.`
+    katzDeliLine.shift()
+  }else {
+    return `There is nobody waiting to be served!`
+  }      //Verified length function can never be negative
 }
 
 function currentLine(katzDeliLine){
