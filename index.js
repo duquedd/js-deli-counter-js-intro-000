@@ -19,7 +19,7 @@ function currentLine(katzDeliLine){
     retVar=` ${quantity}. ${katzDeliLine[quantity-1]}`+ retVar
     quantity--
   }
-  if (!(retVar===""){
+  if (!(retVar==="")){
     return `The line is currently:`+ retVar
   }
 
