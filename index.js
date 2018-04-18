@@ -16,7 +16,7 @@ function currentLine(katzDeliLine){
   for(var quantity=katzDeliLine.length;quantity>0;quantity--){
     retVar= retVar +`${quantity}. ${katzDeliLine[quantity-1]}`
   }
+return retVar
 
-      
 
 }
