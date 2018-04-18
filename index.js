@@ -4,9 +4,9 @@ function takeANumber(katzDeliLine,newPersonInLine){
 }
 
 function nowServing(katzDeliLine){
-  
+
 }
 
 function currentLine(katzDeliLine){
-  
+
 }
