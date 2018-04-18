@@ -12,7 +12,8 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  var retVar = ""
+  var retVar = "The line is currently:"
+  
   for(var quantity=katzDeliLine.length;quantity>0;quantity){
     if (!(quantity=== katzDeliLine.length)){ retVar = `,`+retVar}
     retVar=` ${quantity}. ${katzDeliLine[quantity-1]}`+ retVar
