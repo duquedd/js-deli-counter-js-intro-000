@@ -12,7 +12,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  var retVar
+  var retVar = ""
   for(var quantity=katzDeliLine.length;quantity>0;quantity){
     retVar=`${quantity}. ${katzDeliLine[quantity-1]} `+ retVar
     quantity--
